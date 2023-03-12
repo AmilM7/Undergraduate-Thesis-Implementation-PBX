@@ -1,12 +1,12 @@
 ### Undergraduate-Thesis-Implementation-PBX
 
-- This implementation uses Asterisk which is a free and open source framework for building communications applications and is sponsored by Sangoma.
-- This implemetation represents simple simulation of IP PBX system. The three application were developed that interact with Asterisk: AGI, AMI and ARI. 
+- This implementation uses Asterisk which is a free and open-source framework for building communications applications and is sponsored by Sangoma.
+- This implementation represents the simple simulation of the IP PBX system. The three applications were developed that interact with Asterisk: AGI, AMI, and ARI. 
 
 
 ## AGI (Asterisk Gateway Interface):
-    - Framework: https://phpagi.sourceforge.net/
-    - AGI provides an interface between the Asterisk dialplan and an external program that wants to manipulate a channel in the dialplan. In general, the interface is synchronous.
+    * Framework: https://phpagi.sourceforge.net/
+    *  AGI provides an interface between the Asterisk dialplan and an external program that wants to manipulate a channel in the dialplan. In general, the interface is synchronous.
     - Actions taken on a channel from an AGI block and do not return until the action is completed
     - About Application:
     Simple IVR, when called, will play some greeting message, ask for password if it is set, and then promt a user to enter some options.
