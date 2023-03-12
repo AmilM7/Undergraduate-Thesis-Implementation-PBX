@@ -7,13 +7,13 @@
 ## AGI (Asterisk Gateway Interface)
 - Framework: https://phpagi.sourceforge.net/
 -  AGI provides an interface between the Asterisk dialplan and an external program that wants to manipulate a channel in the dialplan. In general, the interface is synchronous.
-- Actions taken on a channel from an AGI block and do not return until the action is completed
-- About Application:
-Simple IVR, when called, will play some greeting message, ask for password if it is set, and then promt a user to enter some options.
+- Actions taken on a channel from an AGI block and do not return until the action is completed.
+- About the application:
+Simple IVR, when called, will play some greeting message, ask for the password if it is set, and then promt a user to enter some options.
 Options:
-   1. Calling Extension
-   2. Changing Password
-   3. 3. Repeat
+   1. Calling a extension
+   2. Changing the password
+   3. Repeat
 
 
 ## AMI (Asterisk Manager Interface):
@@ -21,8 +21,8 @@ Options:
 - Unlike AGI, AMI is an asynchronous, event driven interface. For the most part, AMI does not provide mechanisms to control channel execution - rather, it provides
 information about the state of the channels and controls about where the channels are executing.
 - About the application:
-Simple dashboard that will track the number of users (total number of extensions), the number of active users (number of registered extensions),
-number of current calls, details about every call, recordings for every user, extension.conf file.
+A Simple dashboard that will track the number of users (total number of extensions), the number of active users (number of registered extensions),
+the number of current calls, details about every call, recordings for every user, extension.conf file.
 - UI: https://semantic-ui.com/
 - Real-time - no database
 - Framework: https://github.com/marcelog/PAMI
