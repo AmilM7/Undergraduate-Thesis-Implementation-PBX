@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+}
+
+body {
+	background-color: aliceblue;
+}
+
+.ui.cards {
+	margin-top: .875em;
+}
+
+header {
+    height: 80px;
+    background-color: indianred;
+    text-align: center;
+    vertical-align: central;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+    font-style: italic;
+}
+
+.main_content {
+	margin: 30px auto 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 90%;
+	justify-content: center;
+}
+
+.options {
+	margin: auto;
+}
+
+.displayedUsers {
+	padding: 0 40px;
+	height: 240px;
+}
+
+.audio {
+	width: auto;
+	width: 251px;
+	box-shadow: 5px;
+}
+
+.primary {
+	display: flex;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+}
+
+.ui.compact.labeled.icon.menu {
+	margin-top: 50px;
+}
+
+footer {
+    margin: 50px auto;
+    width: 100%;
+    border: 5px solid white;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    flex-direction: column;
+    font-size: 16px;
+}

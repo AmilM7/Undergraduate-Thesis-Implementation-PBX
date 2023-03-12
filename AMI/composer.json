@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+        "PAMI\\":"/home/PAMI/src/PAMI/",
+            "MyApp\\": "src"
+        }
+    },
+    "require": {
+        ",arcelog/pami": "2.*",
+        "cboden/ratchet": "^0.4.3",    
+        }
+}

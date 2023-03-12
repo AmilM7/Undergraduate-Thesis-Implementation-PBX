@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: aliceblue;
+    position: relative;
+}
+
+header {
+    height: 80px;
+    background-color: indianred;
+    text-align: center;
+    vertical-align: central;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+    font-style: italic;
+    margin-bottom: 35px;
+}
+
+div div {
+    display: flex;
+    justify-content: center;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+}
+
+#MainOne {
+    margin-top: 70px;
+}
+
+#MainOne div {
+    margin: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: center
+}
+
+.ui.compact.labeled.icon.menu {
+    margin-top: 20px;
+}
+
+.middleContent { 
+    display: flex;
+    flex-direction: row;
+}
+
+main section {
+    height: 350px;
+    width: 300px;
+    border: solid darkblue;
+    margin: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.DashboardHeading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+main section {
+    padding-top: 30px;
+}
+
+main section h3 {
+    text-align: center;
+    margin-bottom: 100px
+}
+
+footer {
+    margin: 50px auto;
+    width: 100%;
+    border: 5px solid white;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    flex-direction: column;
+    font-size: 16px;
+
+}
+
+#callsCards {
+    padding: 15px 20px 20px 20px;
+}
+
+
+.addMargin {
+    margin-top: 100px !important;
+}
+
