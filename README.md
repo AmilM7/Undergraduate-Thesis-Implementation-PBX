@@ -1,4 +1,4 @@
-### Undergraduate-Thesis-Implementation-PBX
+## Undergraduate-Thesis-Implementation-PBX
 
 - This implementation uses Asterisk which is a free and open-source framework for building communications applications and is sponsored by Sangoma.
 - This implementation represents the simple simulation of the IP PBX system. The three applications were developed that interact with Asterisk: AGI, AMI, and ARI. 
