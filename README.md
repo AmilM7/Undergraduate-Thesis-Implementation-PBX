@@ -38,8 +38,8 @@ The state of the objects being controlled by the user are conveyed via JSON even
 - Framework: https://github.com/CyCoreSystems/ari-proxy
 - About the application:
 There will be three functions: Dial, List, Join.
-   1. dial will initiate a call between endpoints. There can be two or more endpoints.
-   2. list will print all ongoing calls
+   1. Dial will initiate a call between endpoints. There can be two or more endpoints.
+   2. List will print all ongoing calls
    3. Join allows joining an ongoing call
    4. If there are two participants in bridge, than it is call and if one left, the whole bridge in destroyed.
    5. If there are three participants in bridge, than it is conference and bridge will be destroyed only if all participants left conference.
