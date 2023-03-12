@@ -4,9 +4,9 @@
 - This implemetation represents simple simulation of IP PBX system. The three application were developed that interact with Asterisk: AGI, AMI and ARI. 
 
 
-## AGI (Asterisk Gateway Interface):
+##AGI (Asterisk Gateway Interface):
     - Framework: https://phpagi.sourceforge.net/
-    - AGI provides an interface between the Asterisk dialplan and an external program that wants to manipulate a channel in the dialplan. In general, the interface is synchronous
+    - AGI provides an interface between the Asterisk dialplan and an external program that wants to manipulate a channel in the dialplan. In general, the interface is synchronous.
     - Actions taken on a channel from an AGI block and do not return until the action is completed
     - About Application:
     Simple IVR, when called, will play some greeting message, ask for password if it is set, and then promt a user to enter some options.
@@ -16,7 +16,7 @@
     3. Repeat
 
 
-## AMI (Asterisk Manager Interface):
+##AMI (Asterisk Manager Interface):
     - AMI provides a mechanism to control where channels execute in the dialplan.
     - Unlike AGI, AMI is an asynchronous, event driven interface. For the most part, AMI does not provide mechanisms to control channel execution - rather, it provides
     information about the state of the channels and controls about where the channels are executing.
@@ -29,7 +29,7 @@
     - Websocket: http://socketo.me/
 
 
-## ARI (Asterisk REST Interface):
+##ARI (Asterisk REST Interface):
     - While AMI is good at call control and AGI is good at allowing a remote process to execute
     dialplan applications, neither of these APIs was designed to let a developer build their
     own custom communications application. ARI is an asynchronous API that allows developers
