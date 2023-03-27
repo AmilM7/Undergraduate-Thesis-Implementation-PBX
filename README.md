@@ -37,9 +37,9 @@ to build communications applications by exposing the raw primitive objects in As
 The state of the objects being controlled by the user are conveyed via JSON events over a WebSocket.
 - Framework: https://github.com/CyCoreSystems/ari-proxy
 - About the application:
-There will be three functions: Dial, List, Join.
+There will be three functions: Dial, List, Join. The application is a command-line. 
    1. Dial will initiate a call between endpoints. There can be two or more endpoints.
-   2. List will print all ongoing calls
-   3. Join allows joining an ongoing call
+   2. List will print all ongoing calls.
+   3. Join allows joining an ongoing call.
    4. If there are two participants in bridge, than it is call and if one left, the whole bridge in destroyed.
    5. If there are three participants in bridge, than it is conference and bridge will be destroyed only if all participants left conference.
